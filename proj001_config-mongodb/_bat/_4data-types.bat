@@ -15,9 +15,9 @@ REM data Objects
 }
 
 REM store regular expressions
-{
-"streetregex" : /^[A-Aa-z0-9\.\'\-] {5,30}$/
-}
+REM {
+REM "streetregex" : /^[A-Aa-z0-9\.\'\-]{5,30}$/
+REM }
 
 REM embeded documents inside documents
 {
@@ -25,9 +25,9 @@ REM embeded documents inside documents
 }
 
 REM Object ID´s
-randomdata = { 
-"name" : null, 
-"over20" : true, 
+randomdata = {
+"name" : null,
+"over20" : true,
 "height" : 6.25,
 "address" : "Rua Francisco Costa, number 9, 7A",
 "grades" : ["a", "b", "c", "d", "f", 234],
